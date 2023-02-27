@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -24,7 +25,6 @@
                </image>
             </ImageView>
             <TextField layoutX="25.0" layoutY="220.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="User" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
-            <TextField layoutX="25.0" layoutY="276.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
             <CheckBox layoutX="26.0" layoutY="327.0" maxHeight="18.0" maxWidth="105.0" minHeight="18.0" minWidth="105.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="105.0" text="Remember user" textFill="WHITE" />
             <CheckBox layoutX="26.0" layoutY="359.0" maxHeight="18.0" maxWidth="105.0" minHeight="18.0" minWidth="105.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="105.0" text="Auto login" textFill="WHITE" />
             <Label layoutX="223.0" layoutY="318.0" text="Not registered yet?" textFill="#5881d3">
@@ -34,6 +34,7 @@
             </Label>
             <Label layoutX="100.0" layoutY="525.0" text="© 2023 Team Task Manager" textFill="WHITE" />
             <Button fx:id="loginbtn" layoutX="84.0" layoutY="441.0" maxHeight="35.0" maxWidth="182.0" minHeight="35.0" minWidth="182.0" mnemonicParsing="false" onMouseClicked="#OnLoginClick" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: #5881D3;" text="LOGIN" textAlignment="CENTER" textFill="WHITE" />
+            <PasswordField layoutX="25.0" layoutY="276.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #FFFFFF;" />
          </children>
       </Pane>
    </children>
