@@ -11,29 +11,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-border-width: 5px;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" maxHeight="600.0" maxWidth="400.0" minHeight="600.0" minWidth="400.0" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-border-width: 5px;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="l_lau_u.team_task_manager.forms.loginformcontroller">
    <stylesheets>
       <URL value="@loginform.css" />
    </stylesheets>
    <children>
-      <Pane layoutX="24.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="353.0" style="-fx-background-color: #1A202B; -fx-border-color: #1E2633; -fx-border-width: 3px;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <Pane layoutX="24.0" layoutY="21.0" maxHeight="550.0" maxWidth="350.0" minHeight="550.0" minWidth="350.0" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: #1A202B; -fx-border-color: #1E2633; -fx-border-width: 3px;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
          <children>
             <ImageView fitHeight="160.0" fitWidth="250.0" layoutX="50.0" layoutY="18.0" preserveRatio="true">
                <image>
                   <Image url="@../media/TTM_LOGO_300x180.png" />
                </image>
             </ImageView>
-            <TextField layoutX="25.0" layoutY="220.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="300.0" promptText="User" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
-            <TextField layoutX="25.0" layoutY="282.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="300.0" promptText="Password" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
-            <CheckBox layoutX="25.0" layoutY="330.0" mnemonicParsing="false" text="Remember user" textFill="WHITE" />
-            <CheckBox layoutX="25.0" layoutY="365.0" mnemonicParsing="false" text="Auto login" textFill="WHITE" />
-            <Label layoutX="213.0" layoutY="325.0" text="Not registered yet?" textFill="#5881d3">
+            <TextField layoutX="25.0" layoutY="220.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="User" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
+            <TextField layoutX="25.0" layoutY="276.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" style="-fx-background-color: #273041; -fx-border-color: #1E2633; -fx-text-fill: #ffffff;" />
+            <CheckBox layoutX="26.0" layoutY="327.0" maxHeight="18.0" maxWidth="105.0" minHeight="18.0" minWidth="105.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="105.0" text="Remember user" textFill="WHITE" />
+            <CheckBox layoutX="26.0" layoutY="359.0" maxHeight="18.0" maxWidth="105.0" minHeight="18.0" minWidth="105.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="105.0" text="Auto login" textFill="WHITE" />
+            <Label layoutX="223.0" layoutY="318.0" text="Not registered yet?" textFill="#5881d3">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
             <Label layoutX="91.0" layoutY="525.0" text="© 2023 Team Task Manager" textFill="WHITE" />
-            <Button layoutX="84.0" layoutY="443.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#OnLoginClick" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: #5881D3;" text="LOGIN" textAlignment="CENTER" textFill="WHITE" />
+            <Button fx:id="loginbtn" layoutX="75.0" layoutY="441.0" maxHeight="35.0" maxWidth="182.0" minHeight="35.0" minWidth="182.0" mnemonicParsing="false" onMouseClicked="#OnLoginClick" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: #5881D3;" text="LOGIN" textAlignment="CENTER" textFill="WHITE" />
          </children>
       </Pane>
    </children>
