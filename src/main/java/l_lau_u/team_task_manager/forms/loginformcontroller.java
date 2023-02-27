@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package l_lau_u.team_task_manager.javafx;
+package l_lau_u.team_task_manager.forms;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,7 +13,7 @@ import javafx.fxml.Initializable;
  *
  * @author l_lau_u
  */
-public class LoginFormController implements Initializable {
+public class loginformcontroller implements Initializable {
 
     /**
      * Initializes the controller class.
