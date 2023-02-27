@@ -32,8 +32,8 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
-            <Label layoutX="91.0" layoutY="525.0" text="© 2023 Team Task Manager" textFill="WHITE" />
-            <Button fx:id="loginbtn" layoutX="75.0" layoutY="441.0" maxHeight="35.0" maxWidth="182.0" minHeight="35.0" minWidth="182.0" mnemonicParsing="false" onMouseClicked="#OnLoginClick" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: #5881D3;" text="LOGIN" textAlignment="CENTER" textFill="WHITE" />
+            <Label layoutX="100.0" layoutY="525.0" text="© 2023 Team Task Manager" textFill="WHITE" />
+            <Button fx:id="loginbtn" layoutX="84.0" layoutY="441.0" maxHeight="35.0" maxWidth="182.0" minHeight="35.0" minWidth="182.0" mnemonicParsing="false" onMouseClicked="#OnLoginClick" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: #5881D3;" text="LOGIN" textAlignment="CENTER" textFill="WHITE" />
          </children>
       </Pane>
    </children>
